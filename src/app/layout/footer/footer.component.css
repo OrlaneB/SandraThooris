@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  align-items: center;
+  background-color: #B2F8B4;
+  justify-content: space-between;
+  width:calc(100% + 80px);
+  margin-left:-40px;
+  padding:40px;
+  box-sizing:border-box;
+}
+
+footer #inline {
+  display: flex;
+  align-items: center;
+}
+
+footer #inline * {
+  color: #472BEA;
+  margin : 0 15px 0 0;
+
+}
+

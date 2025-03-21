@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav * {
+  margin:0 8px;
+}
+
+header h1 {
+  z-index: 1;
+}
+
+header #circle {
+  position: absolute;
+  top : -50px;
+  left:calc(50vw - 235px);
+  z-index: 0;
+
+  background-color: #FF9E70;
+  width:470px;
+  height:235px;
+  border-radius: 0 0 235px 235px;
+
+}
