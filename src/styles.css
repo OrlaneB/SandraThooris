@@ -4,10 +4,40 @@
   src: url("app/assets/Asap-VariableFont_wdth\,wght.ttf");
 }
 
+* {
+  z-index: 1;
+}
+
 body{
   font-family: "Asap";
 }
 
 button {
   font-family: "Asap";
+  border: none;
+  margin:12px 0;
+  padding:12px;
+  cursor: pointer;
+}
+
+.rightSpace {
+  margin-right: 12px;
+}
+
+.pinkButton {
+  background-color: #FF9E70;
+  color: black;
+}
+
+.pinkButton:hover {
+  background-color: #ffba9a;
+}
+
+.blueButton {
+  background-color: #472BEA;
+  color: white;
+}
+
+.blueButton:hover{
+  background-color: #6145ff;
 }
