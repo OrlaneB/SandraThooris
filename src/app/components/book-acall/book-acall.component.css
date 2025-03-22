@@ -1,0 +1,35 @@
+#bookACall {
+  display: flex;
+  align-items: center;
+  margin:100px 0;
+}
+
+
+#bookACall #text {
+  padding:0 10%;
+  box-sizing: border-box;
+  flex:40%;
+}
+
+#bookACall .inlineInfo {
+  display: flex;
+  justify-content: left;
+  gap:30px;
+}
+
+#bookACall .inlineInfo img {
+  width:30px;
+}
+
+#bookACall #calendlyWidget {
+  position: relative;
+  flex: 60%;
+}
+
+#bookACall #calendlyWidget img {
+  position: absolute;
+  top: -20vh;
+  right: -45px;
+  z-index: 0;
+  width: 70vw;
+}

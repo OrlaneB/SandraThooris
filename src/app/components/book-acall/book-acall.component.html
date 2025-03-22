@@ -1,0 +1,28 @@
+<div id="bookACall">
+  <div id="text">
+    <h2>Réserve ta séance</h2>
+
+    @for (info of infos;track info.id){
+      <div class="inlineInfo">
+        <img [src]="info.image+'.svg'">
+        <p [innerHTML]="info.text"></p>
+      </div>
+    }
+
+    <button class="pinkButton">Contact</button>
+
+  </div>
+
+  <div id="calendlyWidget">
+    <!-- Début de widget en ligne Calendly -->
+    <div class="calendly-inline-widget"
+         data-url="https://calendly.com/orlanebdesign/appel-decouverte"
+         style="max-width:400px;height:600px;margin: auto;border-radius: 20px;">
+    </div>
+    <!-- Fin de widget en ligne Calendly -->
+
+    <img src="groupForms.svg" />
+
+
+  </div>
+</div>
