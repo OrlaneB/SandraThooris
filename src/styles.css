@@ -10,6 +10,9 @@
 
 body{
   font-family: "Asap";
+  overflow-x: hidden;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 button {

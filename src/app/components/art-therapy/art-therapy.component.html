@@ -1,0 +1,23 @@
+<div id="ArtTherapy">
+  <div id="ArtTherapyCircles">
+    <div (click)="changeStep(0)" [ngClass]="step===0?'selected circle' : 'circle'"></div>
+    <div (click)="changeStep(1)" [ngClass]="step===1?'selected circle' : 'circle'"></div>
+    <div (click)="changeStep(2)" [ngClass]="step===2?'selected circle' : 'circle'"></div>
+  </div>
+
+  <div id="ArtTherapyText">
+    <h2>L'art thérapie c'est quoi ?</h2>
+    <p>L’art-thérapie est une démarche d’accompagnement personnel. Elle ne remplace en aucun cas un avis médical, un suivi psychologique ou psychiatrique.</p>
+
+    <h4>{{explanations[step]["title"]}}</h4>
+    <p>{{explanations[step]["text"]}}</p>
+
+    <div id="progress">
+      <div (click)="changeStep(0)" [ngClass]="step===0?'selected':''"></div>
+      <div (click)="changeStep(1)" [ngClass]="step===1?'selected':''"></div>
+      <div (click)="changeStep(2)" [ngClass]="step===2?'selected':''"></div>
+    </div>
+
+
+  </div>
+</div>

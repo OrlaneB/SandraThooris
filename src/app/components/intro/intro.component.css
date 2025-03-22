@@ -30,8 +30,8 @@
 #Intro #triangle {
   position: absolute;
   z-index: 0;
-  top: -30px;
-  left:60vw;
+  top: -80px;
+  left:65vw;
   width: 0px;
   height: 0px;
   border-style: solid;

@@ -1,0 +1,86 @@
+#ArtTherapy {
+  display: flex;
+  align-items: center;
+  margin-top:250px;
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+
+#ArtTherapyCircles {
+  position: relative;
+  height : 580px;
+  flex: 50%;
+}
+
+#ArtTherapyCircles .circle {
+  border:13px solid #241E24;
+  background-color: transparent;
+  pointer-events: auto;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform : translate(-50%,-50%);
+  cursor: pointer;
+}
+
+#ArtTherapyCircles .selected {
+  border-color: #FF9E70;
+}
+
+#ArtTherapyCircles .circle::before{
+  content: "";
+  position: absolute;
+  inset:13px;
+  border-radius: 50%;
+  background-color: white;
+  pointer-events: none;
+}
+
+#ArtTherapyCircles .circle:nth-child(1){
+  width:580px;
+  height:580px;
+
+}
+
+#ArtTherapyCircles .circle:nth-child(2){
+  width:470px;
+  height:470px;
+
+}
+#ArtTherapyCircles .circle:nth-child(3){
+  width:300px;
+  height:300px;
+}
+
+#ArtTherapyText {
+  padding: 0 20% 0 10%;
+  width:20%;
+  box-sizing: content-box;
+}
+
+#ArtTherapyText h2 {
+  background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 25%, rgba(178,248,180,1) 25%, rgba(178,248,180,1) 100%);
+  padding-top:8px;
+}
+
+#ArtTherapyText #progress {
+  display: flex;
+  justify-content: center;
+  gap:16px;
+  margin-top:35px;
+}
+
+
+#ArtTherapyText #progress div {
+  background-color: #D9D9D9;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#ArtTherapyText #progress .selected {
+  background-color: #FF9E70;
+}
