@@ -24,11 +24,15 @@
 #bookACall #calendlyWidget {
   position: relative;
   flex: 60%;
+  background-color: white;
+  padding:10px;
+  border-radius: 5px;
 }
+
 
 #bookACall #calendlyWidget img {
   position: absolute;
-  top: -20vh;
+  top: -10vh;
   right: -45px;
   z-index: 0;
   width: 70vw;

@@ -1,0 +1,36 @@
+#Faq {
+  display: flex;
+  gap: 30px;
+  margin : 250px 0;
+  align-items: center;
+}
+
+#Faq * {
+  flex:1;
+}
+
+#Faq img {
+  width:20%;
+  padding:0 10%;
+}
+
+#Faq h4 {
+  background-color: #B2F8B4;
+  padding: 20px;
+  border-radius: 10px;
+  width:70%;
+  margin:10px 0;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+#Faq .selected {
+  background-color: #FF9E70;
+  font-weight: 700;
+}
+
+#Faq p {
+  width:60%;
+  margin-left:5%;
+  margin-bottom: 30px;
+}

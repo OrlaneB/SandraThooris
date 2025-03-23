@@ -1,0 +1,22 @@
+<div id="Faq">
+  <img src="thoughts.svg" />
+
+  <div>
+    <h2>Encore des questions ?</h2>
+
+    @for (item of faq; track item.id){
+      <div>
+
+        <h4 (click)="openAnswer(item.id)" [ngClass]="opened===item.id?'selected':''">
+          {{item.question}}
+        </h4>
+
+        @if(opened===item.id){
+          <p>{{item.answer}}</p>
+        }
+
+      </div>
+    }
+
+  </div>
+</div>>
