@@ -87,3 +87,20 @@
 #ArtTherapyText #progress .selected {
   background-color: #FF9E70;
 }
+
+
+@media screen and (max-width:600px){
+  #ArtTherapyCircles {
+    display: none;
+  }
+
+  #ArtTherapyText {
+    width:80%;
+    margin: auto;
+  }
+
+  #ArtTherapyText #container {
+    width:100%;
+    min-width: 100%;
+  }
+}

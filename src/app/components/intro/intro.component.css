@@ -64,3 +64,47 @@
     top:70%;
   }
 }
+
+@media screen and (max-width:600px){
+  #Intro {
+    display: block;
+    margin-top: 30px;
+  }
+
+  #Intro #circle {
+    visibility: hidden;
+  }
+
+  #Intro #triangle {
+    top:-150px;
+    left:50px;
+    border-width: 0 350px 600px 350px;
+  }
+
+  #Intro #textDiv {
+    min-width: 80%;
+    width:80%;
+    margin: auto;
+  }
+
+  #Intro #textDiv #container {
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  #Intro #arrow {
+    /* top:100%;
+    left:-80px;
+    width:100%; */
+    visibility: hidden;
+  }
+
+  #Intro #illu {
+    width: 80%;
+    margin-left: 20%;
+    position: relative;
+    right:-20px;
+    top:50px;
+    transform: rotate(8deg);
+  }
+}
