@@ -24,3 +24,30 @@ footer div:last-child{
   text-align: right;
 }
 
+@media screen and (max-width:600px){
+  footer {
+    display: block;
+    padding:20px 70px;
+  }
+
+  footer #inline {
+    display: block;
+    margin: 30px 0;
+  }
+
+
+  footer #rightDiv {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: left;
+  }
+
+  footer #rightDiv button {
+    margin: 30px 0;
+  }
+
+  footer p {
+    margin:5px 0;
+  }
+}
+
