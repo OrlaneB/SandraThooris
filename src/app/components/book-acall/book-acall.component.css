@@ -37,3 +37,20 @@
   z-index: 0;
   width: 70vw;
 }
+
+@media screen and (max-width:600px){
+  #bookACall {
+    display: block;
+  }
+
+  #bookACall #calendlyWidget {
+    margin-top: 80px;
+  }
+
+  #bookACall #calendlyWidget img {
+    bottom: 30px;
+    right: -15%;
+    width: 180%;
+  }
+
+}
