@@ -1,19 +1,41 @@
 header {
   display: flex;
   justify-content: space-between;
+  z-index: 1;
 }
 
 nav {
   display: flex;
   align-items: center;
+  width:35%;
+  gap:20px;
 }
 
-nav * {
-  margin:0 8px;
+nav:last-child{
+  justify-content: right;
+  z-index: 2;
 }
+
+header .socialIcons {
+  width:24px;
+  cursor: pointer;
+}
+
+nav p {
+  cursor: pointer;
+}
+
+nav p:hover {
+  font-weight: 600;
+  color: #472BEA ;
+  text-decoration: underline solid #472BEA;
+}
+
+
 
 header h1 {
   z-index: 1;
+  text-align: center;
 }
 
 header #circle {
@@ -27,4 +49,22 @@ header #circle {
   height:235px;
   border-radius: 0 0 235px 235px;
 
+}
+
+@media screen and (max-width:600px){
+  .onlyDesktop{
+    visibility: hidden;
+  }
+  /* header nav:first-child {
+    align-items: start;
+  } */
+  header nav {
+    flex-direction: column-reverse;
+  }
+  header {
+    width: 100%;
+  }
+  header h1 {
+    margin-top: 10px;
+  }
 }

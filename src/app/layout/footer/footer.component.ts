@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-footer',
   imports: [],
@@ -8,4 +9,12 @@ import { Component } from '@angular/core';
 })
 export class Footer {
 
+
+  goToTop(){
+    window.scrollTo({
+      top:0,
+      left:0,
+      behavior:"smooth"
+    })
+  }
 }

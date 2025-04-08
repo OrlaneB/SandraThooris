@@ -1,20 +1,28 @@
 <div id="Intro">
   <div id="textDiv">
+    <div id="container">
     <h3>Parfois, s’exprimer autrement
       qu’avec des mots
       peut faire toute la différence. </h3>
     <p>Je vous accompagne dans cette exploration.</p>
 
-    <button class="rightSpace blueButton">Réserver</button>
-    <button class="pinkButton">Comprendre</button>
+    <button class="rightSpace blueButton" (click)="scrollToAnchor('ArtTherapy')">Comprendre</button>
+    <button class="pinkButton" (click)="contact()">Contact</button>
+
   </div>
+
+  <img src="arrow1.svg" id="arrow"/>
+
+  </div>
+
+
 
   <img src="headDrawing.svg" id="illu"/>
 
   <div id="circle"></div>
   <div id="triangle"></div>
 
-  <img src="arrow1.svg" id="arrow"/>
+
 
 </div>
 

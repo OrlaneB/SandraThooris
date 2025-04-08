@@ -1,0 +1,55 @@
+#LastBlogArticles {
+  display: flex;
+  position: relative;
+  margin-bottom :250px;
+  gap:150px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#LastBlogArticles #LastArticle {
+  background-color: white;
+  width : 30%;
+  padding:40px;
+  margin-left:5%;
+  border-radius: 30px;
+}
+
+#LastBlogArticles #LastArticle .date {
+  color: rgb(152, 152, 152);
+}
+
+#LastBlogArticles #OtherArticles {
+  margin-right:15%;
+  width:25%;
+  position: relative;
+}
+
+
+#LastBlogArticles #OtherArticles li {
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+#LastBlogArticles #OtherArticles li:hover{
+  font-weight: 600;
+  color: #472BEA ;
+  text-decoration: underline solid #472BEA;
+}
+
+#LastBlogArticles #OtherArticles img {
+  position: absolute;
+  left:-60%;
+  top:-5%;
+  transform: rotate(15deg) translateX(-60%)translateY(20%);
+}
+
+#LastBlogArticles #background {
+  position: absolute;
+  width:60vw;
+  max-height:200%;
+  min-height: 100%;
+  z-index: 0;
+  left:-65px;
+  transform: translateY(10%);
+}

@@ -3,14 +3,24 @@
   justify-content: space-between;
   align-items: center;
   margin:100px 0;
+  position: relative;
 }
 
-#Intro #textDiv {
-  padding:0 18%;
+#Intro #textDiv  {
+  width:60%;
+  min-width: 550px;
+  position: relative;
+}
+
+#Intro #textDiv #container {
+  position: relative;
+  margin:auto;
+  max-width: 50%;
+  min-width: 400px;
 }
 
 #Intro #illu {
-  width: 60%;
+  width: 40%;
   margin-right: -60px;
   transform: rotate(-2.5deg);
   z-index: 1;
@@ -18,7 +28,7 @@
 
 #Intro #circle {
   position: absolute;
-  top:25vh;
+  top:15vh;
   left:-100px;
   height: 650px;
   width: 325px;
@@ -29,8 +39,8 @@
 
 #Intro #triangle {
   position: absolute;
-  z-index: 0;
-  top: -80px;
+  z-index:0;
+  top: -200px;
   left:65vw;
   width: 0px;
   height: 0px;
@@ -42,7 +52,15 @@
 
 #Intro #arrow {
   position: absolute;
-  top:50vh;
-  left:-100px;
+  left:-10%;
   z-index: 0;
+  width: 60%;
+  top:60%;
+}
+
+
+@media screen and (max-width:1200px) {
+  #Intro #arrow {
+    top:70%;
+  }
 }

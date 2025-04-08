@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ViewportScroller } from '@angular/common';
 
 @Component({
   selector:"app-header",
@@ -8,4 +9,18 @@ import { Component } from '@angular/core';
 })
 export class Header {
 
+  constructor(private viewPortScroller : ViewportScroller) {
+
+  }
+
+  scrollToAnchor(anchor:string){
+    this.viewPortScroller.scrollToAnchor(anchor)
+    window.scrollTo({
+      top:window.scrollY,
+      left:0});
+  }
+
+  // openWindow(link:string){
+  //   window.open(link)
+  // }
 }

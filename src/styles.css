@@ -22,14 +22,23 @@ h3 {
 
 
 p,h4 {
-  font-size: 1.3em;
+  font-size: 1.1em;
+}
+
+footer p {
+  font-size: 0.9em;
+}
+
+
+html,body {
+  overflow-x: hidden;
 }
 
 body{
   font-family: "Asap";
   overflow-x: hidden;
-  margin-bottom: 0;
-  padding-bottom: 0;
+  margin: 0;
+  padding: 0;
 }
 
 button {
@@ -61,4 +70,10 @@ button {
 
 .blueButton:hover{
   background-color: #6145ff;
+}
+
+@media screen and (max-width:1470px) {
+  h3 {
+    font-size: 1.3em;
+  }
 }

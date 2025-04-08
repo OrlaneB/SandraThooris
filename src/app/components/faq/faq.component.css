@@ -5,13 +5,19 @@
   align-items: center;
 }
 
-#Faq * {
+/* #Faq * {
   flex:1;
+} */
+
+#Faq #questionsDiv {
+  flex:60%;
 }
 
+
 #Faq img {
-  width:20%;
+  width:15%;
   padding:0 10%;
+  flex:40%;
 }
 
 #Faq h4 {
