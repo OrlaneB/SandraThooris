@@ -53,3 +53,53 @@
   left:-65px;
   transform: translateY(10%);
 }
+
+.onlyMobile {
+  display: none;
+}
+
+@media screen and (max-width:600px){
+  #LastBlogArticles {
+    display: block;
+    margin-bottom: 100px;
+  }
+
+  #LastBlogArticles #background {
+    min-height:fit-content;
+    width:250%;
+    left:-25%;
+    top:-150px;
+    z-index: 0;
+  }
+
+  #LastBlogArticles #LastArticle {
+    padding: 0;
+    width:80%;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    padding:5%;
+  }
+
+  #LastBlogArticles h2 {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  #LastBlogArticles #OtherArticles {
+    width: 80%;
+    margin: 150px auto 0 auto;
+
+  }
+
+
+  .onlyDesktop {
+    display: none;
+  }
+
+  .onlyMobile {
+    display: block;
+  }
+}

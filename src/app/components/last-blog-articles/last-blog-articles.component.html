@@ -1,4 +1,7 @@
 <div id="LastBlogArticles">
+
+  <h2 class="onlyMobile">Le dernier article du blog</h2>
+
   <div id="LastArticle">
     @if(lastArticle){
       <h3>{{lastArticle.title}}</h3>
@@ -10,8 +13,8 @@
   </div>
 
   <div id="OtherArticles">
-    <img src="arrow2.svg" />
-    <h2>Le dernier article du blog</h2>
+    <img src="arrow2.svg" class="onlyDesktop"/>
+    <h2 class="onlyDesktop">Le dernier article du blog</h2>
     <h3>À voir aussi...</h3>
     <ul>
       @if(articles.length>0){
