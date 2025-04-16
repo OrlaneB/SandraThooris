@@ -77,3 +77,10 @@ button {
     font-size: 1.3em;
   }
 }
+
+
+/* Remove blog part */
+
+.blogUnavailable {
+  display: none;
+}

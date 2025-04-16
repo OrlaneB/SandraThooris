@@ -7,6 +7,20 @@ footer {
   margin-left:-55px;
   padding:20px 50px;
   box-sizing:border-box;
+  position: relative;
+}
+
+footer::before {
+  position: absolute;
+  width:calc(100% + 110px);
+  height: 20px;
+  background-color: #FF9E70;
+  content: "Bientôt, le blog !";
+  top:-40px;
+  padding: 10px 20px;
+  left:25px;
+  text-align: center;
+  font-family: "Asap";
 }
 
 footer #inline {

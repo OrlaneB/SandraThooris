@@ -1,8 +1,8 @@
 <header>
   <nav>
     <p (click)="scrollToAnchor('ArtTherapy')" class="onlyDesktop">Art thérapie</p>
-    <p (click)="scrollToAnchor('Faq')" class="onlyDesktop">FAQ</p>
-    <p (click)="scrollToAnchor('LastBlogArticles')">Blog</p>
+    <p (click)="scrollToAnchor('Faq')">FAQ</p>
+    <p (click)="scrollToAnchor('LastBlogArticles')" class="blogUnavailable onlyDesktop">Blog</p>
   </nav>
 
   <div id="circle"></div>
@@ -10,7 +10,7 @@
 
 
   <nav>
-    <img
+    <!-- <img
       src="instagramIcon.svg"
       class="socialIcons onlyDesktop"
 
@@ -19,7 +19,7 @@
     <img
       src="facebookIcon.svg"
       class="socialIcons onlyDesktop"
-    />
+    /> -->
 
     <button class="blueButton" (click)="scrollToAnchor('bookACall')">Réserver</button>
   </nav>

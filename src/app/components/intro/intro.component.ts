@@ -21,6 +21,6 @@ export class IntroComponent {
   }
 
   contact(){
-    window.open("mailto:sandrathooris@gmail.com")
+    window.open("mailto:contact@sandra-arttherapie.fr")
   }
 }
