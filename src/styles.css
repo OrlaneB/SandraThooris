@@ -72,6 +72,19 @@ button {
   background-color: #6145ff;
 }
 
+.greyButton {
+  background-color: transparent;
+  color: black;
+}
+
+.greyButton:hover{
+  color: #da6b37;
+}
+
+.custom-list {
+  padding-inline-start: 15px;
+}
+
 @media screen and (max-width:1470px) {
   h3 {
     font-size: 1.3em;

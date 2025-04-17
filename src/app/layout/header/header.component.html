@@ -1,15 +1,19 @@
 <header>
-  <nav>
+  <nav class="onlyDesktop">
     <p (click)="scrollToAnchor('ArtTherapy')" class="onlyDesktop">Art thérapie</p>
     <p (click)="scrollToAnchor('Faq')">FAQ</p>
     <p (click)="scrollToAnchor('LastBlogArticles')" class="blogUnavailable onlyDesktop">Blog</p>
   </nav>
 
   <div id="circle"></div>
-  <h1>Sandra Thooris</h1>
+
+  <div id="pageTitle">
+    <h1>Art thérapie</h1>
+    <h2>Sandra Thooris</h2>
+  </div>
 
 
-  <nav>
+  <nav class="onlyDesktop">
     <!-- <img
       src="instagramIcon.svg"
       class="socialIcons onlyDesktop"
@@ -21,6 +25,6 @@
       class="socialIcons onlyDesktop"
     /> -->
 
-    <button class="blueButton" (click)="scrollToAnchor('bookACall')">Réserver</button>
+    <button class="blueButton" (click)="scrollToAnchor('bookACall')">Réserver une séance</button>
   </nav>
 </header>

@@ -20,28 +20,28 @@ export class FaqComponent {
 
   faq = [
     {
-        question: "Dois-je savoir dessiner pour faire de l’art-thérapie ?",
-        answer: "Pas du tout ! L’art-thérapie ne repose pas sur la technique ou le talent artistique, mais sur l’expression de soi. Peu importe le résultat, ce qui compte, c’est le processus créatif.",
+        question: "Qui est concerné ?",
+        answer: "Tout adulte, adolescent qui ressent le besoin de s’exprimer, extérioriser des émotions, des pensées, se (re)découvrir à travers sa créativité ou qui souhaite un accompagnement pour traverser une période difficile ou un changement de vie. Les enfants qui parlent mieux avec des crayons qu’avec des mots. Toute personne curieuse de tenter une approche qui mêle jeu, expression et exploration intérieure.",
         id:0
     },
     {
-        question: "Les séances en visio, ça marche vraiment ?",
-        answer: "Oui, tout à fait ! Les séances en visio permettent un accompagnement efficace dans le confort de votre espace. Il suffit d’un endroit calme et du matériel recommandé pour profiter pleinement de la séance.",
+        question: "Et si je ne me sens pas créatif ?",
+        answer: "Nul besoin d’être créatif, pas besoin de savoir dessiner, coller droit ou « faire joli ». Ce qui est important, c’est son ressenti, l’expérience vécue durant la création. La créativité, c’est aussi s’autoriser à essayer, expérimenter et trouver ses propres solutions à un problème, pas de mode d’emploi !",
         id:1
     },
     {
-        question: "Puis-je essayer l'art-thérapie même si je vais bien ?",
-        answer: "Bien sûr. L’art-thérapie n’est pas réservée aux moments difficiles. C’est aussi un outil pour mieux vous connaître, prendre confiance en vous, ou simplement explorer vos émotions différemment.",
+        question: "En visio, qu’est-ce que ça change ?",
+        answer: "L’art thérapie peut se vivre à distance : un salon, un coin bureau ou toute autre pièce peuvent devenir des espaces créatifs ! . Pas besoin de beaucoup de matériel : quelques feuilles, des crayons, un peu de colle ou de peinture peuvent suffire. Et si vous n’avez rien sous la main, pas de soucis, on s’adapte ensemble !",
         id:2
     },
     {
-        question: "Quels matériaux dois-je prévoir pour une séance ?",
-        answer: "Cela dépend de la séance et de vos préférences. Généralement, quelques feuilles de papier, des crayons, feutres ou peintures suffisent. Je vous indiquerai en amont si un matériel spécifique est nécessaire.",
+        question: " Que fait-on pendant la première séance ?",
+        answer: "Lors de la première séance, on discute de votre demande, on prend le temps de faire connaissance. On échange autour de ce qui vous amène, ce que vous ressentez, ce que vous aimeriez explorer ou apaiser. Même si ce n’est pas très clair au début, ça fonctionne aussi !",
         id:3
     },
     {
-        question: "Est-ce que l'art-thérapie est remboursée ?",
-        answer: "L’art-thérapie n’est pas remboursée par la Sécurité sociale. Toutefois, certaines mutuelles proposent une prise en charge partielle. Renseignez-vous auprès de la vôtre.",
+        question: "Que fait-on pendant les séances de suivi ?",
+        answer: "Lors des séances de suivi, à partir de différentes propositions créatives (dessin, collage, assemblage, modelage, écriture, ...), vous avancez à votre rythme. Chaque séance est un temps pour soi, un espace où déposer, créer, transformer. On échange à partir de la production, sur ce que vous venez de vivre, ou on laisse simplement la création parler. Une séance dure généralement entre 1h et 1h30.",
         id:4
     }
 ];

@@ -5,11 +5,12 @@
     @for (info of infos;track info.id){
       <div class="inlineInfo">
         <img [src]="info.image+'.svg'">
-        <p [innerHTML]="info.text"></p>
+        <div [innerHTML]="info.text"></div>
       </div>
     }
 
-    <button class="pinkButton">Contact</button>
+    <!-- <button class="pinkButton">Contact</button> -->
+     <app-contact-buttons></app-contact-buttons>
 
   </div>
 

@@ -1,13 +1,17 @@
 <div id="Intro">
   <div id="textDiv">
     <div id="container">
+      <h2>Et si créer devenait votre façon d’avancer ?</h2>
     <h3>Parfois, s’exprimer autrement
       qu’avec des mots
       peut faire toute la différence. </h3>
-    <p>Je vous accompagne dans cette exploration.</p>
+    <p class="introText">Je vous accompagne dans cette exploration, <br/>
+      L’art thérapie est une démarche d’accompagnement personnel qui permet de s’exprimer librement par les arts plastiques.</p>
 
-    <button class="rightSpace blueButton" (click)="scrollToAnchor('ArtTherapy')">Comprendre</button>
-    <button class="pinkButton" (click)="contact()">Contact</button>
+    <button class="onlyDesktop rightSpace blueButton" (click)="scrollToAnchor('ArtTherapy')">Comprendre</button>
+    <button class="onlyMobile rightSpace blueButton" (click)="scrollToAnchor('bookACall')">Réserver une séance</button>
+    <!-- <button class="pinkButton" (click)="contact()">Contact</button> -->
+    <app-contact-buttons></app-contact-buttons>
 
   </div>
 

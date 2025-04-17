@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { ContactButtons } from '../../components/contact-buttons/contact-buttons.component';
 
 
 @Component({
   selector: 'app-footer',
-  imports: [],
+  imports: [ContactButtons],
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.css'
 })

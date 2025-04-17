@@ -16,8 +16,8 @@ export class ArtTherapyComponent {
   }
 
   explanations = [
-    {title:"Accompagner votre quotidien",text:"La vie apporte son lot de défis, et parfois, un petit coup de pouce aide à avancer. L’art-thérapie offre un espace pour déposer ce qui pèse, mieux gérer le stress ou simplement prendre soin de vous."},
-    {title:"S’exprimer autrement",text:"Pas besoin de savoir dessiner ! Ce qui compte, c’est créer, explorer, et laisser parler vos émotions quand les mots manquent."},
-    {title:"Se comprendre pour avancer", text:"Chaque création dévoile un peu plus de vous-même. Ensemble, nous ferons de ce voyage une étape vers un mieux-être."}
+    {title:"Accompagner votre quotidien",text:"La vie apporte son lot de défis... Parfois, on a besoin d’un élan pour avancer. L’art thérapie offre un espace pour déposer ce que l’on porte, mettre ses émotions en couleur plutôt qu’en boule, peindre ses épreuves au lieu de les ruminer ou coller les morceaux autrement !"},
+    {title:"S’exprimer autrement",text:"Pas besoin de se sentir artiste, ni même de savoir dessiner. Pas besoin non plus de savoir quoi dire, ni quoi faire. Juste créer, tester, explorer, ressentir : ça fait du bien !"},
+    {title:"Se (re)découvrir", text:"À l’aide d’un pinceau, de la colle, d’un crayon ou de l’argile...  vous créez ! Ce que vous vivez durant le temps de création dévoile un peu plus de vous-même. Vous n’êtes pas seul(e) ! On avance ensemble, à la recherche de mieux-être."}
   ]
 }

@@ -7,7 +7,7 @@
 }
 
 #Intro #textDiv  {
-  width:60%;
+  width:70%;
   min-width: 550px;
   position: relative;
 }
@@ -17,6 +17,10 @@
   margin:auto;
   max-width: 50%;
   min-width: 400px;
+}
+
+#Intro .introText {
+  line-height: 30px;
 }
 
 #Intro #illu {
@@ -55,20 +59,32 @@
   left:-10%;
   z-index: 0;
   width: 60%;
-  top:60%;
+  top:80%;
+}
+
+#Intro .onlyMobile {
+  display: none;
 }
 
 
 @media screen and (max-width:1200px) {
   #Intro #arrow {
-    top:70%;
+    top:90%;
   }
 }
 
 @media screen and (max-width:600px){
   #Intro {
     display: block;
-    margin-top: 30px;
+    margin-top: 80px;
+  }
+
+  #Intro .onlyMobile {
+    display: inline-block;
+  }
+
+  #Intro .onlyDesktop {
+    display: none;
   }
 
   #Intro #circle {
@@ -82,8 +98,8 @@
   }
 
   #Intro #textDiv {
-    min-width: 80%;
-    width:80%;
+    min-width: 90%;
+    width:90%;
     margin: auto;
   }
 
@@ -107,4 +123,6 @@
     top:50px;
     transform: rotate(8deg);
   }
+
+
 }

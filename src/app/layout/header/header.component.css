@@ -11,6 +11,19 @@ nav {
   gap:20px;
 }
 
+header #pageTitle {
+  margin-top: 20px;
+  text-align: center;
+}
+
+header #pageTitle * {
+  margin: 0;
+}
+
+header #pageTitle h2 {
+  font-size: 28px;
+}
+
 nav:last-child{
   justify-content: right;
   z-index: 2;
@@ -53,7 +66,7 @@ header #circle {
 
 @media screen and (max-width:600px){
   .onlyDesktop{
-    visibility: hidden;
+    display: none;
   }
 
   header nav {
@@ -61,6 +74,8 @@ header #circle {
   }
   header {
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
   header h1 {
     margin-top: 10px;
