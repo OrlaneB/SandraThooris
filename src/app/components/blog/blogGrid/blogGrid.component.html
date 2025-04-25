@@ -1,0 +1,15 @@
+<div id="articleGrid">
+
+@for (article of articles; track article.id) {
+
+  <div class="articles">
+    <h3>{{article.title}}</h3>
+    <p>{{article.content.slice(0,100)}}...</p>
+    <button class="pinkButton">Lire plus</button>
+  </div>
+
+} @empty {
+  <p>Aucun article</p>
+}
+
+</div>

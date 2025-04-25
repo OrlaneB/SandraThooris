@@ -1,0 +1,15 @@
+<form #articleData="ngForm" (ngSubmit)="onSubmit(articleData)">
+  <h1>Ajouter un article</h1>
+
+  <label>
+    Titre de l'article
+    <input type="text" id="title" name="title" [(ngModel)]="formData.title"/>
+  </label>
+
+  <label>
+    Contenu
+    <textarea type="text" id="content" name="content" [(ngModel)]="formData.content"></textarea>
+  </label>
+
+  <button type="submit" class="blueButton">Ajouter un article</button>
+</form>

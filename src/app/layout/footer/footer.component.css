@@ -10,7 +10,7 @@ footer {
   position: relative;
 }
 
-footer::before {
+/* footer::before {
   position: absolute;
   width:calc(100% + 110px);
   height: 20px;
@@ -21,7 +21,7 @@ footer::before {
   left:25px;
   text-align: center;
   font-family: "Asap";
-}
+} */
 
 footer #inline {
   display: flex;

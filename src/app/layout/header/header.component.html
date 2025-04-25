@@ -2,7 +2,9 @@
   <nav class="onlyDesktop">
     <p (click)="scrollToAnchor('ArtTherapy')" class="onlyDesktop">Art thérapie</p>
     <p (click)="scrollToAnchor('Faq')">FAQ</p>
-    <p (click)="scrollToAnchor('LastBlogArticles')" class="blogUnavailable onlyDesktop">Blog</p>
+    <a [routerLink]="['/blog']"><p class="blogUnavailable onlyDesktop">
+      Blog
+    </p></a>
   </nav>
 
   <div id="circle"></div>
